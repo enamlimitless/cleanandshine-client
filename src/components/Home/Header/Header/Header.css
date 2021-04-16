@@ -1,0 +1,8 @@
+.header-main{
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)) ,url('../../../../images/cleanHeader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center/center;
+    /* height: 100vh; */
+    width: 100%;
+}

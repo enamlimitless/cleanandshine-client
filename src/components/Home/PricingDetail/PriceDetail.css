@@ -1,0 +1,42 @@
+.price-card{
+    box-shadow: 0 0 32px rgba(4,20,69,.1);
+    margin: 0 2rem;
+    padding: 3rem 3rem;
+    border: .1rem solid #E6E9F2;
+}
+
+.best-choice{
+    font-size: 1.5rem;
+    color: #8CD102;
+    margin: 1rem 0;
+}
+.price-title{
+    font-size: 2.5rem;
+    color: #082680;
+}
+.price-card img{width: 8rem; margin-bottom: 1rem;}
+.price-employee{
+    font-size: 1.6rem;
+    color: #666666;
+}
+.price{
+    font-size: 4.5rem;
+    color: #082680;
+    margin: 2rem 0;
+}
+.price-discount{
+    color: #082680;
+    font-size: 3rem;
+}
+.price-btn{
+    background: #082680;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+    margin: 1rem 0;
+}
+.price-btn:hover{
+    background: #007CFB;
+    color: #fff;
+}

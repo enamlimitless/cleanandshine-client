@@ -8,10 +8,10 @@
 ***This is a simple react web app by using react.js and React Router.***
 *It's about a league called Fantasy Football. Where there are different clubs and they have their own information*
 
-Website Link: 
+Website Live Link: https://idyllic-cabinet-308308.web.app/
    
 
-### Website Preview
+### Website Preview : https://idyllic-cabinet-308308.firebaseapp.com/
   
 
 ## Technologies

@@ -1,0 +1,24 @@
+.logo img{
+    width: 5rem;
+}
+.navbar{
+    background: #fff;
+    padding: 1rem 0;
+}
+.navbar .bar-icon{
+    font-size: 3rem;
+    color: #051135;
+    border: 0;
+}
+*:focus{outline: 0;}
+.navbar .nav-link{
+    font-size: 1.6rem;
+    color: #212D53 !important;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 3rem;
+    transition: all .3s ease-in-out;
+}
+.navbar .nav-link:hover{
+    color: #007CFB !important;
+    border-bottom: .3rem solid #007CFB;
+}

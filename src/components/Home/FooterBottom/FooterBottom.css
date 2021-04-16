@@ -1,0 +1,13 @@
+.ft-b{
+    background: #15265B;
+    font-size: 1.6rem;
+    color: #C2D5E7;
+}
+.ft-b a{
+    text-decoration: none;
+    color: #007CFB;
+    transition: all .2s ease-in-out;
+}
+.ft-b a:hover{
+    color: #fff;
+}

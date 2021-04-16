@@ -1,0 +1,52 @@
+.head-img img{
+    height: 35rem;
+    margin-top: 10rem;
+}
+.head-text{
+    font-size: 7rem;
+    color: #fff;
+    margin-top: 10rem;
+}
+.head-des{
+    font-size: 1.6rem;
+    color: #fff;
+}
+.btn-style{
+    padding: 1.5rem 3rem;
+    background: #fff;
+    font-size: 1.3rem;
+    color: #000e39;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.btn-style:hover{
+    background: #267FF9;
+    color: #fff;
+}
+.head-card{
+    background: #fff;
+    padding: 3rem 2rem;
+    border: .1rem solid #E6E9F2;
+    border-radius: .4rem;
+    /* margin-right: 2rem; */
+}
+.info-img-style img{
+    width: 8rem;
+    height: auto;
+    margin-right: 5rem;
+}
+.info-img-style{
+    background: #F0F1F3;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.head-card-text h3{
+    color: #082680;
+    font-size: 2rem;
+}
+.head-card-text p{
+    color: #3A4268;
+    font-size: 1.5rem;
+}

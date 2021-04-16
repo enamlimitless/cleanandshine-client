@@ -1,0 +1,26 @@
+.services-card{
+    background: #fff;
+    margin-right: 3rem;
+    padding: 3rem;
+    box-shadow: 0 0 32px rgba(4,20,69,.1);
+    cursor: pointer;
+    border-radius: .5rem;
+    border: .1rem solid #E6E9F2;
+}
+.services img{width: 7rem;}
+.services-head{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: #082680;
+}
+.services button{
+    background: #082680;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+}
+.services button:hover{
+    background: #007CFB;
+    color: #fff;
+}

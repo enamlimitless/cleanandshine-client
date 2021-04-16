@@ -1,0 +1,28 @@
+.about .about-img{
+    position: relative;
+}
+.about .experience{
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    background: #007CFB;
+    color: #fff;
+    padding: 1rem 4rem 1rem 2rem;
+    border-radius: .4rem;
+    font-size: 1.7rem;
+}
+.about .experience span{
+    font-size: 4rem;
+    display: block;
+    font-weight: 700;
+}
+.about .trophy img{
+    width: 4rem;
+    height: 4rem;
+}
+.about .trophy {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
