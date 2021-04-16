@@ -6,7 +6,7 @@
 ### General Info
 ***
 ***This is a simple react web app by using react.js and React Router.***
-*It's about a league called Fantasy Football. Where there are different clubs and they have their own information*
+*It's about a Cleaning Services called Clean & Shine. Where there are different types of services provided*
 
 Website Live Link: https://idyllic-cabinet-308308.web.app/
    
@@ -25,7 +25,7 @@ A list of technologies used within the project:
 ***
 A little intro about the installation. 
 ```
-$ npx create-react-app fantacy-football
+$ npx create-react-app Cleaning And Shine
 $ cd ../path/to/the/file
 $ npm install
 $ npm start
