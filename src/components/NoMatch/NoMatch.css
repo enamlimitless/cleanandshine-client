@@ -5,8 +5,6 @@
     color: red;
     overflow:hidden;
 }
-.nomatch-style{
-    margin-top: 15rem;
-}
-.nomatch-style h2{font-size: 4rem;}
-.nomatch-style h1{font-size: 3rem;}
+.nomatch-style{margin-top: 15rem;}
+.nomatch-style h2{font-size: 6rem;}
+.nomatch-style h1{font-size: 5rem;}

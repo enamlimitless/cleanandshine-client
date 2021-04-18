@@ -1,27 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ServicesDetail from '../ServicesDetail.js/ServicesDetail';
 import house from '../../../images/house.png';
 import indoorclean from '../../../images/indoorclean.png';
 import plumbing from '../../../images/plumbing.png';
 
 const Services = () => {
-    const servicesData = [
-        {
-            title: 'House Cleaning',
-            description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
-            icon: house
-        },
-        {
-            title: 'Indoor Cleaning',
-            description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
-            icon: indoorclean
-        },
-        {
-            title: 'Plumbing Services',
-            description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
-            icon: plumbing
-        }
-    ]
+    const [service, setService] = useState([]);
+    useEffect(() =>{
+        fetch('https://quiet-taiga-29943.herokuapp.com/service')
+        .then(res => res.json())
+        .then(data => setService(data))
+    },[])
+    console.log(service)
+    // const servicesData = [
+    //     {
+    //         title: 'House Cleaning',
+    //         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
+    //         icon: house
+    //     },
+    //     {
+    //         title: 'Indoor Cleaning',
+    //         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
+    //         icon: indoorclean
+    //     },
+    //     {
+    //         title: 'Plumbing Services',
+    //         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam expedita dolorem ipsum nemo illo totam.',
+    //         icon: plumbing
+    //     }
+    // ]
     return (
         <section className="bg-light">
             <div className="container">
@@ -32,7 +39,7 @@ const Services = () => {
                 </div>
                 <div className="row">
                     {
-                        servicesData.map(service => <ServicesDetail service={service}></ServicesDetail>)
+                        service.map(service => <ServicesDetail service={service}></ServicesDetail>)
                     }
                 </div>
             </div>
