@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import person1 from '../../../images/person1.jpg';
+// import person1 from '../../../images/person1.jpg';
 import TestimonialDetail from '../TestimonialData/TestimonialDetail';
 const Testimonial = () => {
     const [testimonial, setTestimonial] = useState([]);

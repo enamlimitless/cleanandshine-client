@@ -11,7 +11,7 @@ const PricingDetail = ({ price }) => {
                 <img src={price.icon} alt="" />
                 <p className="description">{price.description}</p>
                 <h2 className="price-discount">{price.discount}</h2>
-                <button className="btn price-btn">Try Now</button>
+                <button className="btn price-btn button">Try Now</button>
             </div>
         </div>
     );

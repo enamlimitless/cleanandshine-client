@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ServicesDetail from '../ServicesDetail.js/ServicesDetail';
-import house from '../../../images/house.png';
-import indoorclean from '../../../images/indoorclean.png';
-import plumbing from '../../../images/plumbing.png';
 
 const Services = () => {
     const [service, setService] = useState([]);

@@ -13,14 +13,7 @@ section{padding: 8rem 0;}
     font-size: 3.5rem;
     color: #082680;
 }
-/* .sub-head::before{
-    content: '';
-    width: 5rem;
-    height: .3rem;
-    background: #007CFB;
-    display: block;
-    position: absolute;
-} */
+
 .sub-head{
     font-size: 1.8rem;
     color: #3A4268;
@@ -49,3 +42,66 @@ section{padding: 8rem 0;}
     color: #fff;
 }
 p{font-family: 'Rubik', sans-serif;}
+
+.bg{
+    background: #051135;
+    overflow-x: hidden;
+}
+.sidebar-bg{
+    background: #007CFB;
+}
+.form-control{
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    color: #b3b4b7;
+    border: .1rem solid #E6E9F2;
+}
+label{font-size: 1.5rem; margin-bottom: .5rem;}
+
+.btn-rocket{
+    font-size: 2rem !important;
+    padding: 1rem 2rem !important;
+}
+
+/* Button Animation */
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #082680;
+    z-index: -2;
+  }
+  .button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #007CFB;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }

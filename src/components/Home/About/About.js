@@ -28,7 +28,7 @@ const About = () => {
                         <h2 className="sec-head">You can believe on us <br /> to get a awesome services</h2>
                         <h5 className="sub-head">We are Clean & Shine, cleaning service provider.</h5>
                         <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quae, accusantium eos dignissimos facilis ad Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, culpa?</p>
-                        <button className="btn style-btn">About Us <FontAwesomeIcon className="mt-2 ms-2" icon={faArrowRight} /></button>
+                        <button className="btn style-btn button">About Us <FontAwesomeIcon className="mt-2 ms-2" icon={faArrowRight} /></button>
                     </div>
                 </div>
             </div>

@@ -9,9 +9,9 @@ const FooterLeftMiddle = () => {
             <h2 className="footer-head">Newsletter</h2>
             <p>Subscribe our newsletter to get our latest update & news</p>
             <div class="input-group mb-3">
-                <input type="text" class="form-control py-4" placeholder="Your Email Address" />
+                <input type="text" class="form-control" placeholder="Your Email Address" />
                 <div class="input-group-append">
-                <button className="btn btn-primary p-4"><FontAwesomeIcon icon={faRocket} /></button>
+                <button className="btn button btn-rocket form-control"><FontAwesomeIcon icon={faRocket} /></button>
                 </div>
             </div>
             <div className="d-flex">

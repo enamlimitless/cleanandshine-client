@@ -40,13 +40,13 @@ const AddTestimonial = () => {
         <div className="container mt-5 pt-5">
             <div className="row">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="col-lg-8">
-                        <input className="form-control" {...register("name")} />
-                        <input className="form-control" {...register("role")} />
-                        <input className="form-control" name="file" type="file" onChange={handleImageUpload} {...register} />
-                        <textarea className="form-control"  {...register("blockquote", { required: true })} cols="10" rows="5"></textarea>
+                    <div className="col-lg-6">
+                        <input className="form-control" {...register("name")} placeholder="Your Name" />
+                        <input className="form-control my-4" {...register("role")} placeholder="Add Your Company Name" />
+                        <input className="form-control" name="file" type="file" onChange={handleImageUpload} {...register} placeholder="Add Your Image" />
+                        <textarea className="form-control my-4"  {...register("blockquote", { required: true })} cols="10" rows="5" placeholder="Write Something About The Company"></textarea>
                         {errors.exampleRequired && <span>This field is required</span>}
-                        <input type="submit" />
+                        <input className="btn style-btn" type="submit" />
                     </div>
                 </form>
             </div>

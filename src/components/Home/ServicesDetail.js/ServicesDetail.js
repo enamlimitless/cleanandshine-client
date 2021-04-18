@@ -8,7 +8,7 @@ const ServicesDetail = ({ service }) => {
                 <img src={service.imgUrl} alt="" />
                 <h3 className="services-head">{service.title}</h3>
                 <p className="description">{service.description}</p>
-                <button className="btn">Learn More</button>
+                <button className="btn button">Learn More</button>
             </div>
         </div>
     );

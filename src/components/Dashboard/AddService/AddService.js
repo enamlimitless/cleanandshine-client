@@ -41,12 +41,13 @@ const AddService = () => {
         <div className="container mt-5 pt-5">
             <div className="row">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="col-lg-8">
-                        <input className="form-control" defaultValue="test" {...register("title")} />
-                        <input className="form-control" name="file" type="file" onChange={handleImageUpload} {...register} />
-                        <textarea className="form-control"  {...register("description", { required: true })} cols="10" rows="5"></textarea>
+                    <div className="col-lg-6">
+                        <input className="form-control mb-4" {...register("title")} placeholder="Add Service Title"/>
+                        <label htmlFor="file">Please Upload a Flaticon svg Image For Interactive Same Look</label>
+                        <input className="form-control mb-5" name="file" type="file" onChange={handleImageUpload} {...register} placeholder="Add Service Image"/>
+                        <textarea className="form-control my-4"  {...register("description", { required: true })} cols="10" rows="5" placeholder="Add About Service Detail"></textarea>
                         {errors.exampleRequired && <span>This field is required</span>}
-                        <input type="submit" />
+                        <input className="btn style-btn" type="submit" />
                     </div>
                 </form>
             </div>
