@@ -40,6 +40,8 @@ const AddService = () => {
     return (
         <div className="container mt-5 pt-5">
             <div className="row">
+                <h3 className="pb-2 display-2 text-primary">Welcome To Dashboard</h3>
+                
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="col-lg-6">
                         <input className="form-control mb-4" {...register("title")} placeholder="Add Service Title"/>

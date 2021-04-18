@@ -5,9 +5,9 @@ import AdminSidebar from '../AdminSidebar/AdminSidebar';
 
 const Admin = () => {
     return (
-        <div className="row bg">
+        <div className="row">
             <Navbar></Navbar>
-            <div className="col-lg-3 bg-info">
+            <div className="col-lg-3 bg-dark">
                 <AdminSidebar></AdminSidebar>
             </div>
             <div className="col-lg-9 bg-warning">

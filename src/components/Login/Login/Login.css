@@ -1,0 +1,21 @@
+.login-btn{
+    border: .1rem solid lightgray;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem 10rem 1rem 2rem;
+}
+.parent img{
+    width: 7rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+}
+.login-card{
+    margin-top: 15rem;
+    margin-left: 35rem;
+    overflow-x: hidden;
+}

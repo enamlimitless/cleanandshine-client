@@ -38,7 +38,9 @@ const AddTestimonial = () => {
     console.log(watch,errors)
     return (
         <div className="container mt-5 pt-5">
+            <h3 className="display-3 text-primary mb-2">Make A Review</h3>
             <div className="row">
+
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="col-lg-6">
                         <input className="form-control" {...register("name")} placeholder="Your Name" />

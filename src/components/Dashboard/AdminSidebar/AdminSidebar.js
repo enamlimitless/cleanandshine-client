@@ -6,7 +6,7 @@ import { faSignOutAlt, faPlus, faGripHorizontal, faUser, faCogs } from '@fortawe
 const AdminSidebar = () => {
     return (
         <div className="sidebar d-flex flex-column justify-content-between py-5 px-4" style={{ height: "100vh" }}>
-            <ul className="list-unstyled">
+            {/* <ul className="list-unstyled">
                 <li>
                     <Link to="/orderList" className="text-white">
                         <FontAwesomeIcon icon={faGripHorizontal} /> <span>Order List</span>
@@ -29,9 +29,9 @@ const AdminSidebar = () => {
                         </Link>
                     </li>
                 </div>
-            </ul>
+            </ul> */}
             <div>
-                <Link to="/" className="text-white"><FontAwesomeIcon icon={faSignOutAlt} /> <span>Logout</span></Link>
+                <Link to="/" className="text-white h3"><FontAwesomeIcon icon={faSignOutAlt} /> <span>Logout</span></Link>
             </div>
         </div>
     );
