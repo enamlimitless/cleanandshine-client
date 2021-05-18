@@ -35,7 +35,7 @@ $ npm install @React Router
 $ npm install firebase
 $npm install axios
 ```
-
+deploy: firebase
 
  
 
