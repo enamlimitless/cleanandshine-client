@@ -33,6 +33,7 @@ $ npm start
 $ npm install @fortawesome/react-fontawesome
 $ npm install @React Router
 $ npm install firebase
+$npm install axios
 ```
 
 
